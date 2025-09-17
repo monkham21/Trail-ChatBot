@@ -2,8 +2,6 @@
 
 TrailBot is an n8n chat agent that suggests hiking trails around **Chiang Rai**, checks **weather** + **AQI**, can create a **Google Calendar** event, and emails you a summary.
 
-> This repository currently contains documentation only. You can follow the steps below to recreate the workflow in your own n8n workspace. Sample workflow JSON and screenshots will be added later.
-
 ## What it does
 - Weather via **OpenWeatherMap**  
 - AQI via **IQAir (AirVisual)**  
@@ -17,6 +15,9 @@ TrailBot is an n8n chat agent that suggests hiking trails around **Chiang Rai**,
 - A Google Sheet with trail rows (e.g., `name, distance_km, difficulty, duration, notes`)
 
 ## Build the workflow (high level)
+
+<img src="docs/screenshot-flow.png" width="640" />
+
 1. **Trigger:** `When chat message received`  
    - Make chat publicly available = **ON**  
    - Mode = **Embedded Chat** (copy the **Chat URL** that looks like `/webhook/chat/<id>`)  
