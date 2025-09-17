@@ -43,10 +43,10 @@ TrailBot is an n8n chat agent that suggests hiking trails around **Chiang Rai**,
 
 5. **Activate** the workflow (header toggle = green). Use the **Production** Chat URL.
 
-<img src="docs/chatbot_ss2.png" width="640" />
-<img src="docs/chatbot_ss3.png" width="640" />
-<img src="docs/chatbot_ss4.png" width="640" />
-<img src="docs/chatbot_ss5.png" width="640" />
+<img src="docs/chatbot_ss2.png" width="220" />
+<img src="docs/chatbot_ss3.png" width="220" />
+<img src="docs/chatbot_ss4.png" width="220" />
+<img src="docs/chatbot_ss5.png" width="220" />
 
 ## Embed on any site (local or prod)
 
